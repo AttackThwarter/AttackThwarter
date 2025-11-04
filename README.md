@@ -41,7 +41,7 @@
 
 <div align="center">
 
-![InstaML Project](https://github-readme-stats.vercel.app/api/pin/?username=AttackThwarter&repo=tldr&theme=tokyonight&border_color=A371F7)
+![InstaML Project](https://github-readme-stats.vercel.app/api/pin/?username=tldr-pages&repo=tldr&theme=tokyonight&border_color=A371F7)
 ![InstaML Project](https://github-readme-stats.vercel.app/api/pin/?username=AttackThwarter&repo=InstaML&theme=tokyonight&border_color=A371F7)
 ![note-repo Project](https://github-readme-stats.vercel.app/api/pin/?username=AttackThwarter&repo=note-repo&theme=tokyonight&border_color=39D353)
 ![Profile README Project](https://github-readme-stats.vercel.app/api/pin/?username=AttackThwarter&repo=AttackThwarter&theme=tokyonight&border_color=39D353)
