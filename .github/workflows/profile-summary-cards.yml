@@ -1,0 +1,24 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule: # روزی یک بار اجرا می‌شود
+    - cron: "0 0 * * *"
+  workflow_dispatch: # اجازه می‌دهد دستی هم اجرا کنید
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write
+      
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          # تم‌های مختلفی وجود دارد، اینجا tokyonight انتخاب شده
+          THEME: tokyonight
